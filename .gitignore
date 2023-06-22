@@ -15,3 +15,6 @@ build/
 
 # Editors
 .vscode/
+
+# yarn 
+yarn.lock
