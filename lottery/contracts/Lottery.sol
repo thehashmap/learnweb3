@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.18;
+pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@chainlink/contracts/src/v0.8/VRFConsumerBase.sol";
 
-contract RandomWinnerGame is VRFConsumerBase, Ownable {
+contract Lottery is VRFConsumerBase, Ownable {
     //Chainlink variables
     // The amount of LINK to send with the request
     uint256 public fee;
